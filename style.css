@@ -1,0 +1,95 @@
+.fadein{
+    font-family: Arial;
+    font-size: 200px;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    margin-top: 40px;
+    padding: 10%;
+    background-color: black;
+    color: white;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .em img {
+    width: 100%;
+    position: relative;
+  }
+  
+  .em .overlay {
+    position: absolute;
+    top: 80px;
+    right: 15px;
+    font-weight: bold;
+    text-align: right;
+    font-size: 30px;
+  }
+  .firstimage{
+    margin-top: 300px;
+  }
+
+  .Secondimage{
+    padding: 50px;
+  }
+
+  .secondtext{
+    font-size: large;
+  }
+
+  .heading2{
+    margin-left: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .ftr{
+    color: white;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  .cardpaddin{
+    padding-bottom: 120px;
+  }
+  .heading3{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 80px;
+  }
+
+  .frm{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
